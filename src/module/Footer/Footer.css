@@ -1,0 +1,143 @@
+.footer-container {
+    background: linear-gradient(261.57deg, rgba(0, 111, 237, 0.12) 18.01%, rgba(179, 214, 255, 0.12) 90.03%);
+    margin: 57px 57px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    padding-top: 5%;
+    margin-bottom: 0;
+    padding-bottom: 5%;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .footer-left {
+    flex: 1;
+  }
+  
+  .footer-logo {
+    width: 150px;
+  }
+  
+  .footer-description {
+    margin: 20px 0;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 56%;
+  }
+  
+  .footer-address, .footer-contacts {
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  .footer-address h4, .footer-contacts h4 {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  }
+  .footer-address p {
+    width: 28%;
+    color: #333;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+  
+  
+  .footer-icon {
+    width: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .footer-right {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .footer-menu {
+    text-align: left;
+  }
+  
+  .footer-menu h4, .footer-social h4 {
+    margin-bottom: 63px;
+    font-size: 1.1em;
+  }
+  
+  .footer-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 180%;
+  }
+  
+  .footer-menu li {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .footer-social {
+    text-align: left;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 65%;
+  }
+  
+  .social-icons img {
+    width: 25px;
+    height: 35px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+      color: #666;
+  }
+  .footer-bottom p {}
+  
+  @media (max-width: 768px) {
+    .footer-container{
+      width: 100%;
+      margin-left: 6%;
+    }
+    /* .footer-content {
+      flex-direction: column;
+      align-items: center;
+    } */
+  
+    .footer-right {
+      margin-top: 20px;
+      
+    }
+  
+    .footer-menu ul {
+      text-align: center;
+    }
+  
+    .social-icons {
+      justify-content: center;
+    }
+    .footer-menu h4, .footer-social h4{
+      margin-bottom: 40px;
+    }
+  }
+  

@@ -1,0 +1,56 @@
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 80px 0px 80px;
+    background-color: #FFFFFF;
+    margin-bottom: 8%;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .right {
+    
+    display: flex;
+    align-items: center;
+  }
+  
+  .buttoncontact {
+    border: 1px solid;
+    border-radius: 32px;
+    width: 216px;
+    height: 44px;
+    font-family: "Inter", sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+background: transparent;
+  }
+  
+  .logo {
+    width: 172px;
+    height: 100px;
+  }
+  @media (max-width: 768px) {
+    .navbar{
+      width: 90%;
+    }
+  }
+
+
+
+
+  @media (max-width: 450px) {
+    .navbar{
+      width: 90%;
+    }
+  }
+ 
+ 

@@ -1,0 +1,135 @@
+.real-estate-banner {
+    text-align: center;
+    /* background-color: #fff; */
+    padding: 40px;
+    border-radius: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 4%;
+  }
+  .content-head{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .real-estate-banner .para1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 64px;
+    color: #000C1A;
+    margin: 0;
+    width: 50%;
+    
+  }
+  
+  .real-estate-banner .highlight {
+    color: #007BFF;
+  }
+  
+  .real-estate-banner .para2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 65px;
+    text-align: center;
+    color:#666;
+    margin: 0;
+    
+  }
+  
+  
+  
+  .real-estate-banner .get-started-btn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 32px;
+    transition: background-color 0.3s ease;
+    width: 27%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .real-estate-banner .get-started-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .header{
+    margin-top: 9%;
+  }
+  
+  .para3{
+margin-top: 15%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #000C1A;
+   
+  }
+  
+  .cuate{
+    display: flex;
+    padding: 4%;
+gap: 4rem;  }
+  
+  .head1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    width: 84%;
+  }
+  .para4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #333333;
+    ;
+  }
+  .button2{
+    display: flex;
+  }
+  @media (max-width: 1024px) {
+    .real-estate-banner .para1 {
+      width: 100%;
+    }
+    .cuate{
+      gap: 0;
+    }
+    .cuateimg {
+      width: 100%;
+    }
+    .cuateimg img {
+      width: 68%;
+      height: 80%;
+    }
+    .headcontainer{
+      width: 100%;
+    }
+    .real-estate-banner .get-started-btn {
+      width: 50%;
+    }
+  }
+  @media (max-width: 768px) {
+    .real-estate-banner {
+      width: 100%;
+    }
+  }
+  @media (max-width: 450px) {
+    .real-estate-banner{
+      width: 170%;
+    }
+  }
+ 

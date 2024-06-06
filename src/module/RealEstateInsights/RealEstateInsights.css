@@ -1,0 +1,88 @@
+/* src/components/RealEstateInsights/styles.css */
+.containerin {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .titlein {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .subtitlein {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  .main-container{
+    display: flex;
+    justify-content: center;
+  }
+  .cards-containerin {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 400px;
+  }
+  
+  .cardin {
+    background: #fff;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 20px;
+    width: 100%;
+    box-shadow: -3px 4px 16px 0px #0000000A;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-iconin {
+    background: #f0f4ff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+  }
+  
+  .card-iconin img {
+    height: 20px; /* Adjust icon size */
+  }
+  
+  .card-contentin {
+    text-align: left;
+  }
+  
+  .card-titlein {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .card-descriptionin {
+    font-size: 14px;
+    color: #555;
+  }
+  .rafiki{
+    
+  }
+  @media (max-width: 768px) {
+    .containerin{
+      width: 100%;
+    }
+    .main-container{
+    }
+    .rafiki img{
+      width: 110%;
+    }
+  }
+  @media (max-width: 450px) {
+    .containerin{
+      width: 178%;
+    }
+  }
+ 

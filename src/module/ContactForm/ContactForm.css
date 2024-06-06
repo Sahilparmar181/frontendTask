@@ -1,0 +1,116 @@
+/* src/components/ContactForm/ContactForm.css */
+
+.contact-container {
+    background: #f9f9f9;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(261.57deg, rgba(0, 111, 237, 0.12) 18.01%, rgba(179, 214, 255, 0.12) 90.03%);
+  }
+  
+  .contact-title {
+    font-family: Montserrat, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .contact-subtitle {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    max-width: 600px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    color: #333;
+  }
+  .mainform{
+    display: flex;
+    margin-bottom: 5%;
+  }
+  
+  .contact-form {
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 44px 0px #0000001A;
+    max-width: 700px;
+    width: 100%;
+  }
+  
+  .contact-fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 48%;
+  }
+  
+  .contact-input-group {
+    flex: 1;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-input-group label {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .contact-input-group input,
+  .contact-input-group textarea {
+    padding: 10px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .contact-input-group input::placeholder,
+  .contact-input-group textarea::placeholder {
+    color: #aaa;
+  }
+  
+  .contact-input-group textarea {
+    resize: none;
+    height: 80%;
+  }
+  
+  .contact-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+
+width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+  }
+  
+  .contact-button:hover {
+    background-color: #0056b3;
+  }
+  @media (max-width: 768px) {
+.contact-container{
+  width: 105%;
+}
+  }
+  @media (max-width: 450px) {
+   .contact-container{
+    width: 180%;
+   }
+  }
+ 
